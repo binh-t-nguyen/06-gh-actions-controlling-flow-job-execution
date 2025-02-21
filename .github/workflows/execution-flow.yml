@@ -83,5 +83,5 @@ jobs:
       - name: Report on failure
         run: | 
           echo "Deployment failed"
-          echo "{{ github }}"
+          echo "${{ github }}"
 
