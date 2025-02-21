@@ -79,7 +79,7 @@ jobs:
     if: failure()
     runs-on: ubuntu-latest
     steps:
-      - name: Output information
+      - name: Report on failure
         run: | 
           echo "Deployment failed"
           echo "{{ github }}"
